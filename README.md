@@ -10,4 +10,5 @@ pero si deseas instalar los paquetes con comando correr el siguiente comando
 
 
 como primer paso, deben instalar las librerias
-despues se debe correr el proyecto
+
+despues se debe ejecutar el archivo **train.py** y por ultimo ejecutar el **main.py**
