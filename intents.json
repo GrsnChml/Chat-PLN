@@ -1,80 +1,85 @@
 {
     "intents": [
       {
-        "tag": "greeting",
+        "tag": "saludo",
         "patterns": [
-          "Hi",
-          "Hey",
-          "How are you",
-          "Is anyone there?",
-          "Hello",
-          "Good day"
+          "Hola",
+          "Ola",
+          "Como estas",
+          "estas ahi?",
+          "Que onda",
+          "Mucho gusto"
         ],
         "responses":[
-          "Hey :-)",
-          "Hello, thanks for visiting",
-          "Hi there, what can I do for you?",
-          "Hi there, how can I help?"
+          "Saludos :-)",
+          "Hola, gracias por la visita",
+          "Hola, que puedo hacer por ti?",
+          "En que te puedo ayudar?"
         ]
       },
       {
-        "tag": "goodbye",
+        "tag": "adios",
         "patterns": [
-          "Bye",
-          "See you later",
-          "Goodbye"
+          "Adios",
+          "te veo pronto",
+          "hasta la vista baby"
         ],
         "responses":[
-          "See you later, thanks for visiting",
-          "Have a nice day",
-          "Bye! Come back again soon"
+          "Hasta luego, gracias por visitarme",
+          "Que tengas un buen dia / noche",
+          "¡Orale! Vuelve pronto"
         ]
       },
       {
-        "tag": "thanks",
-        "patterns": [ "Thanks", "Thank you" ],
-        "responses":[ "Happy to help!", "Any time!" ]
+        "tag": "gracias",
+        "patterns": [ "Gracias", "Muchas gracias", "Buena onda" ],
+        "responses":[ "Encantado de ayudar", "De nada amigo" ]
       },
       {
-        "tag": "items",
-        "patterns": [ "Which items do you have?", "What kinds of items are there?", "What do you sell?" ],
-        "responses":[ "We sell coffee and tea", "We have coffee and tea" ]
+        "tag": "articulos",
+        "patterns": [ "Que tienes", "Que vendes", "Que cosas tienes", "Que chivas tienes", "Que vendes?" ],
+        "responses":[ "Nosotros vendemos cafe y te", "Nosotros tenemos cafe y te" ]
       },
       {
-        "tag": "payments",
+        "tag": "pagos",
         "patterns": [
-          "Do you take credit cards?",
-          "Do you accept Mastercard?",
-          "Can I pay with Paypal?",
-          "Are you cash only?"
+          "Aceptan tarjetas de credito?",
+          "¿Aceptan MasterCard?",
+          "¿Puedo pagar con PayPal?",
+          "¿Es solo efectivo?",
+          "Monedas",
+          "Fichas"
         ],
         "responses":[
-          "We accept only Visa, Mastercard and Paypal",
-          "We accept most major cards, and Paypal"
+          "Aceptamos solo Visa, Mastercard y Paypal",
+          "Aceptamos la mayoría de las tarjetas principales y Paypal"
         ]
       },
       {
-        "tag": "delivery",
+        "tag": "entrega",
         "patterns": [
-          "How long does delivery take?",
-          "How long does shipping take?",
-          "When do I get my delivery?"
+          "¿Cuánto tiempo tarda la entrega?",
+          "Cuanto tiempo tarda el envio?",
+          "¿Cuándo recibo mi entrega?",
+          "Cuando viene mi cafe",
+          "Cuando viene mi te"
         ],
         "responses":[
-          "Delivery takes 2-4 days",
-          "Shipping takes 2-4 days"
+          "La entrega tarda de 2 a 4 días.",
+          "El envío tarda de 2 a 4 días"
         ]
       },
       {
-        "tag": "funny",
+        "tag": "gracioso",
         "patterns": [
-          "Tell me a joke!",
-          "Tell me something funny!",
-          "Do you now a joke?"
+          "¡Cuéntame un chiste!",
+          "¡Dime algo gracioso!",
+          "¿Conoces un chiste?"
         ],
         "responses":[
-          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-          "What did the buffalo say when his son left for college? Bison"
+          "¿Por qué el hipster se quemó la boca? Bebió el café antes de que se enfriara.",
+          "¿Qué dijo el búfalo cuando su hijo se fue a la universidad? Bisonte",
+          "El Chapin El Chapin: No es un cualquiera; Es un Guatemalteco Quien te hace reír,te hace vivir. Has a alguien reir y lo haras vivir."
         ]
       }
     ]

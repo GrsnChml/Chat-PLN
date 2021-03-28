@@ -24,10 +24,10 @@ model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "Venancio"
-print("Let's chat! type 'quit' to exit")
+print("Chatiamos! escribe 'salir' para salir")
 while True:
-    sentence = input('You: ')
-    if sentence == "quit":
+    sentence = input('Tu: ')
+    if sentence == "salir":
         break
 
     sentence = tokenize(sentence)
@@ -47,4 +47,4 @@ while True:
             if tag == intent["tag"]:
                 print(f"{bot_name}: {random.choice(intent['responses'])}")
     else:
-        print(f"{bot_name}: I do not understand...")
+        print(f"{bot_name}: Creo que no entiendo...")
