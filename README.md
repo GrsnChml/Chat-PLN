@@ -9,7 +9,12 @@ pero si deseas instalar los paquetes con comando correr el siguiente comando
     $ pip install -r requirements/requirements.txt
 
 
-como primer paso, deben instalar las librerias
+como primer paso, deben instalar las librerias,
+
+luego se debe de ejecutar la linea **nltk.download()**
+
+![image](https://user-images.githubusercontent.com/38637180/113091853-0dfbb680-91aa-11eb-828f-0429e8bf4eb2.png)
+ esto hara que se descarguen los paquetes necesarios
 
 despues se debe ejecutar el archivo **train.py** y por ultimo ejecutar el **main.py**
 
