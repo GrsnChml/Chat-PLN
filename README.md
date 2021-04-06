@@ -6,7 +6,7 @@ Procesador de lenguaje natural
 para saber que librerias se usaron en la creacion ver requirements/requirements.txt
 
 las librerias primordiales son *numpy, torch y nltk*, con **pip install [numpy/torch/nltk]**
-pero si deseas instalar los paquetes con comando correr el siguiente comando
+pero si deseas instalar los paquetes con comando correr el siguiente comando, *de prefrerencia usar la herramiento pycharm https://www.jetbrains.com/pycharm/download/*
 
     $ pip install -r requirements/requirements.txt
 
