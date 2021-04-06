@@ -1,5 +1,7 @@
+# UNIVERSIDAD MARIANO GALVEZ DE GUATEMALA, CURSO DE INTELIGENCIA ARTIFICIAL, MAESTRIA EN INFORMATICA
+
 # Procesador-NLP
-Procesador de lenguaje natural del curso de IA
+Procesador de lenguaje natural
 
 para saber que librerias se usaron en la creacion ver requirements/requirements.txt
 
